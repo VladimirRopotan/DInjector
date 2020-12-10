@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E7BB09862581F60B00E464E1 /* DInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BB09842581F60B00E464E1 /* DInjector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BB09912581F73700E464E1 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB098F2581F73700E464E1 /* Inject.swift */; };
+		E7BB09922581F73700E464E1 /* Provide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09902581F73700E464E1 /* Provide.swift */; };
+		E7BB09952581F73F00E464E1 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09932581F73F00E464E1 /* Injector.swift */; };
+		E7BB09962581F73F00E464E1 /* InjectorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09942581F73F00E464E1 /* InjectorConfiguration.swift */; };
+		E7BB09992581F74800E464E1 /* InjectorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09972581F74800E464E1 /* InjectorModule.swift */; };
+		E7BB099A2581F74800E464E1 /* AppInjectorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09982581F74800E464E1 /* AppInjectorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7BB09812581F60B00E464E1 /* DInjector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DInjector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BB09842581F60B00E464E1 /* DInjector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DInjector.h; sourceTree = "<group>"; };
 		E7BB09852581F60B00E464E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BB098F2581F73700E464E1 /* Inject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		E7BB09902581F73700E464E1 /* Provide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provide.swift; sourceTree = "<group>"; };
+		E7BB09932581F73F00E464E1 /* Injector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		E7BB09942581F73F00E464E1 /* InjectorConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectorConfiguration.swift; sourceTree = "<group>"; };
+		E7BB09972581F74800E464E1 /* InjectorModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectorModule.swift; sourceTree = "<group>"; };
+		E7BB09982581F74800E464E1 /* AppInjectorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInjectorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +58,40 @@
 		E7BB09832581F60B00E464E1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E7BB098E2581F70F00E464E1 /* Attributes */,
+				E7BB098D2581F70800E464E1 /* Core */,
+				E7BB098C2581F6FE00E464E1 /* Protocols */,
 				E7BB09842581F60B00E464E1 /* DInjector.h */,
 				E7BB09852581F60B00E464E1 /* Info.plist */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		E7BB098C2581F6FE00E464E1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB09982581F74800E464E1 /* AppInjectorProtocol.swift */,
+				E7BB09972581F74800E464E1 /* InjectorModule.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E7BB098D2581F70800E464E1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB09932581F73F00E464E1 /* Injector.swift */,
+				E7BB09942581F73F00E464E1 /* InjectorConfiguration.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E7BB098E2581F70F00E464E1 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB098F2581F73700E464E1 /* Inject.swift */,
+				E7BB09902581F73700E464E1 /* Provide.swift */,
+			);
+			path = Attributes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +137,7 @@
 				TargetAttributes = {
 					E7BB09802581F60B00E464E1 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -131,6 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BB09962581F73F00E464E1 /* InjectorConfiguration.swift in Sources */,
+				E7BB09912581F73700E464E1 /* Inject.swift in Sources */,
+				E7BB09992581F74800E464E1 /* InjectorModule.swift in Sources */,
+				E7BB099A2581F74800E464E1 /* AppInjectorProtocol.swift in Sources */,
+				E7BB09952581F73F00E464E1 /* Injector.swift in Sources */,
+				E7BB09922581F73700E464E1 /* Provide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +309,7 @@
 		E7BB098A2581F60B00E464E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -277,6 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rvladimir.dinjector;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +336,7 @@
 		E7BB098B2581F60B00E464E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
