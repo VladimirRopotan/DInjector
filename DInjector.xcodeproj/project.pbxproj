@@ -8,16 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		E7BB09862581F60B00E464E1 /* DInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BB09842581F60B00E464E1 /* DInjector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BB09912581F73700E464E1 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB098F2581F73700E464E1 /* Inject.swift */; };
+		E7BB09922581F73700E464E1 /* Provide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09902581F73700E464E1 /* Provide.swift */; };
+		E7BB09952581F73F00E464E1 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09932581F73F00E464E1 /* Injector.swift */; };
+		E7BB09962581F73F00E464E1 /* InjectorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09942581F73F00E464E1 /* InjectorConfiguration.swift */; };
+		E7BB09992581F74800E464E1 /* InjectorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09972581F74800E464E1 /* InjectorModule.swift */; };
+		E7BB099A2581F74800E464E1 /* AppInjectorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09982581F74800E464E1 /* AppInjectorProtocol.swift */; };
+		E7BB09A22581F88700E464E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09A12581F88700E464E1 /* AppDelegate.swift */; };
+		E7BB09A42581F88700E464E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09A32581F88700E464E1 /* SceneDelegate.swift */; };
+		E7BB09A62581F88700E464E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09A52581F88700E464E1 /* ViewController.swift */; };
+		E7BB09A92581F88700E464E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BB09A72581F88700E464E1 /* Main.storyboard */; };
+		E7BB09AB2581F88800E464E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BB09AA2581F88800E464E1 /* Assets.xcassets */; };
+		E7BB09AE2581F88800E464E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BB09AC2581F88800E464E1 /* LaunchScreen.storyboard */; };
+		E7BB09B82581FCB900E464E1 /* InteractorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09B52581FCB900E464E1 /* InteractorModule.swift */; };
+		E7BB09B92581FCB900E464E1 /* RepositoryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09B62581FCB900E464E1 /* RepositoryModule.swift */; };
+		E7BB09BA2581FCB900E464E1 /* ViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09B72581FCB900E464E1 /* ViewModule.swift */; };
+		E7BB09BE2581FD0400E464E1 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09BB2581FD0300E464E1 /* Repository.swift */; };
+		E7BB09BF2581FD0400E464E1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09BC2581FD0400E464E1 /* ViewModel.swift */; };
+		E7BB09C02581FD0400E464E1 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB09BD2581FD0400E464E1 /* Interactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7BB09812581F60B00E464E1 /* DInjector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DInjector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BB09842581F60B00E464E1 /* DInjector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DInjector.h; sourceTree = "<group>"; };
 		E7BB09852581F60B00E464E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BB098F2581F73700E464E1 /* Inject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		E7BB09902581F73700E464E1 /* Provide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provide.swift; sourceTree = "<group>"; };
+		E7BB09932581F73F00E464E1 /* Injector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		E7BB09942581F73F00E464E1 /* InjectorConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectorConfiguration.swift; sourceTree = "<group>"; };
+		E7BB09972581F74800E464E1 /* InjectorModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectorModule.swift; sourceTree = "<group>"; };
+		E7BB09982581F74800E464E1 /* AppInjectorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInjectorProtocol.swift; sourceTree = "<group>"; };
+		E7BB099F2581F88700E464E1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BB09A12581F88700E464E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7BB09A32581F88700E464E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7BB09A52581F88700E464E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7BB09A82581F88700E464E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7BB09AA2581F88800E464E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7BB09AD2581F88800E464E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7BB09AF2581F88800E464E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BB09B52581FCB900E464E1 /* InteractorModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorModule.swift; sourceTree = "<group>"; };
+		E7BB09B62581FCB900E464E1 /* RepositoryModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryModule.swift; sourceTree = "<group>"; };
+		E7BB09B72581FCB900E464E1 /* ViewModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModule.swift; sourceTree = "<group>"; };
+		E7BB09BB2581FD0300E464E1 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E7BB09BC2581FD0400E464E1 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E7BB09BD2581FD0400E464E1 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E7BB097E2581F60B00E464E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BB099C2581F88700E464E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				E7BB09832581F60B00E464E1 /* Source */,
+				E7BB09A02581F88700E464E1 /* Example */,
 				E7BB09822581F60B00E464E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				E7BB09812581F60B00E464E1 /* DInjector.framework */,
+				E7BB099F2581F88700E464E1 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +93,76 @@
 		E7BB09832581F60B00E464E1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E7BB098E2581F70F00E464E1 /* Attributes */,
+				E7BB098D2581F70800E464E1 /* Core */,
+				E7BB098C2581F6FE00E464E1 /* Protocols */,
 				E7BB09842581F60B00E464E1 /* DInjector.h */,
 				E7BB09852581F60B00E464E1 /* Info.plist */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		E7BB098C2581F6FE00E464E1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB09982581F74800E464E1 /* AppInjectorProtocol.swift */,
+				E7BB09972581F74800E464E1 /* InjectorModule.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E7BB098D2581F70800E464E1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB09932581F73F00E464E1 /* Injector.swift */,
+				E7BB09942581F73F00E464E1 /* InjectorConfiguration.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E7BB098E2581F70F00E464E1 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB098F2581F73700E464E1 /* Inject.swift */,
+				E7BB09902581F73700E464E1 /* Provide.swift */,
+			);
+			path = Attributes;
+			sourceTree = "<group>";
+		};
+		E7BB09A02581F88700E464E1 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB09BD2581FD0400E464E1 /* Interactor.swift */,
+				E7BB09BB2581FD0300E464E1 /* Repository.swift */,
+				E7BB09BC2581FD0400E464E1 /* ViewModel.swift */,
+				E7BB09A52581F88700E464E1 /* ViewController.swift */,
+				E7BB09B42581FC9100E464E1 /* Modules */,
+				E7BB09B32581FB7700E464E1 /* Support */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		E7BB09B32581FB7700E464E1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB09A12581F88700E464E1 /* AppDelegate.swift */,
+				E7BB09A32581F88700E464E1 /* SceneDelegate.swift */,
+				E7BB09A72581F88700E464E1 /* Main.storyboard */,
+				E7BB09AA2581F88800E464E1 /* Assets.xcassets */,
+				E7BB09AC2581F88800E464E1 /* LaunchScreen.storyboard */,
+				E7BB09AF2581F88800E464E1 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E7BB09B42581FC9100E464E1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB09B52581FCB900E464E1 /* InteractorModule.swift */,
+				E7BB09B62581FCB900E464E1 /* RepositoryModule.swift */,
+				E7BB09B72581FCB900E464E1 /* ViewModule.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +197,38 @@
 			productReference = E7BB09812581F60B00E464E1 /* DInjector.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E7BB099E2581F88700E464E1 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BB09B02581F88800E464E1 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				E7BB099B2581F88700E464E1 /* Sources */,
+				E7BB099C2581F88700E464E1 /* Frameworks */,
+				E7BB099D2581F88700E464E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = E7BB099F2581F88700E464E1 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E7BB09782581F60B00E464E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = RVladimir;
 				TargetAttributes = {
 					E7BB09802581F60B00E464E1 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					E7BB099E2581F88700E464E1 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -112,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				E7BB09802581F60B00E464E1 /* DInjector */,
+				E7BB099E2581F88700E464E1 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +260,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7BB099D2581F88700E464E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BB09AE2581F88800E464E1 /* LaunchScreen.storyboard in Resources */,
+				E7BB09AB2581F88800E464E1 /* Assets.xcassets in Resources */,
+				E7BB09A92581F88700E464E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -131,10 +277,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BB09962581F73F00E464E1 /* InjectorConfiguration.swift in Sources */,
+				E7BB09912581F73700E464E1 /* Inject.swift in Sources */,
+				E7BB09992581F74800E464E1 /* InjectorModule.swift in Sources */,
+				E7BB099A2581F74800E464E1 /* AppInjectorProtocol.swift in Sources */,
+				E7BB09952581F73F00E464E1 /* Injector.swift in Sources */,
+				E7BB09922581F73700E464E1 /* Provide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BB099B2581F88700E464E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BB09BE2581FD0400E464E1 /* Repository.swift in Sources */,
+				E7BB09BA2581FCB900E464E1 /* ViewModule.swift in Sources */,
+				E7BB09A62581F88700E464E1 /* ViewController.swift in Sources */,
+				E7BB09C02581FD0400E464E1 /* Interactor.swift in Sources */,
+				E7BB09B92581FCB900E464E1 /* RepositoryModule.swift in Sources */,
+				E7BB09A22581F88700E464E1 /* AppDelegate.swift in Sources */,
+				E7BB09B82581FCB900E464E1 /* InteractorModule.swift in Sources */,
+				E7BB09BF2581FD0400E464E1 /* ViewModel.swift in Sources */,
+				E7BB09A42581F88700E464E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7BB09A72581F88700E464E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BB09A82581F88700E464E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BB09AC2581F88800E464E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BB09AD2581F88800E464E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E7BB09872581F60B00E464E1 /* Debug */ = {
@@ -260,6 +447,7 @@
 		E7BB098A2581F60B00E464E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -277,6 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rvladimir.dinjector;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +474,7 @@
 		E7BB098B2581F60B00E464E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -307,6 +497,42 @@
 			};
 			name = Release;
 		};
+		E7BB09B12581F88800E464E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rvladimir.dinjector.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7BB09B22581F88800E464E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Example/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rvladimir.dinjector.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -324,6 +550,15 @@
 			buildConfigurations = (
 				E7BB098A2581F60B00E464E1 /* Debug */,
 				E7BB098B2581F60B00E464E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BB09B02581F88800E464E1 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BB09B12581F88800E464E1 /* Debug */,
+				E7BB09B22581F88800E464E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
